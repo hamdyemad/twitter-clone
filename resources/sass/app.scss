@@ -1,0 +1,92 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+@import "./navbar";
+@import "./side-navbar";
+
+@import "./profile/show";
+@import "./profile/edit";
+
+@import "./following";
+@import "./chat/index";
+@import "./placeholders/placeholder";
+
+@import "./tweets/show";
+@import "./tweets/post";
+
+@import "./explore/index";
+body {
+  background-color: var(--background);
+}
+.alert {
+  padding: 3px 10px !important;
+}
+
+.active {
+  background-color: var(--btn);
+  border-radius: 5px;
+  a {
+    color: var(--white) !important;
+  }
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.btn-main {
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  border: none !important;
+  border-radius: 25px;
+  padding: 3px 20px;
+  background-color: #0abde3 !important;
+  &:hover {
+    box-shadow: 0px 0px 7px 0px #0abde3;
+    color: #fff;
+  }
+  &:disabled {
+    background-color: var(--main) !important;
+  }
+}
+
+.online {
+  @extend %ball;
+  background-color: var(--online);
+}
+.offline {
+  @extend %ball;
+  background-color: var(--offline);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  h1 {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 25px;
+    color: var(--main);
+  }
+}

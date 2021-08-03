@@ -1,0 +1,27 @@
+/* Start Explore */
+.explore {
+  ul {
+    li {
+      padding: 10px;
+      border-radius: 15px;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background-color: var(--white);
+      }
+      a {
+        display: block;
+      }
+    }
+  }
+  .pagination {
+    @media (max-width: 991px) {
+      justify-content: center;
+    }
+    .page-item {
+      @media (max-width: 991px) {
+        padding: 0;
+      }
+    }
+  }
+}
+/* End Explore */

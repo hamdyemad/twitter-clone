@@ -1,0 +1,26 @@
+.following {
+    background-color: var(--white);
+    border-radius: 15px;
+    h4 {
+        padding: 10px;
+        margin: 0;
+    }
+    ul {
+        li {
+            a {
+                transition: all 0.3s ease-in-out;
+                border-radius: 5px;
+                padding: 5px 10px;
+                display: block;
+                color: var(--main);
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+                &:hover {
+                    background-color: var(--background);
+                } 
+            } 
+        }
+    }
+}

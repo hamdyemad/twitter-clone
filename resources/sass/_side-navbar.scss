@@ -1,0 +1,14 @@
+// Start SideNavbar
+.side-navbar {
+    ul {
+        li {
+            a {
+                padding: 5px;
+                display: block;
+                color: var(--main);
+                font-weight: bold;
+            }
+        }
+    }
+}
+// End SideNavbar

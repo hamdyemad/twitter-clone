@@ -1,0 +1,20 @@
+.post-tweet {
+    border: 1px solid var(--btn);
+    border-radius: 15px;
+    padding: 10px;
+    textarea {
+        resize: none;
+        border: none;
+        margin-bottom: 10px;
+        border-bottom: 1px solid var(--line);
+        &:focus,&:active {
+            box-shadow: 0px 0px 0px;
+        }
+    }
+    .info {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}

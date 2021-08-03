@@ -24,7 +24,7 @@
     <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
     <script>
         // Enable pusher logging - don't include this in production
-            Pusher.logToConsole = true;
+            // Pusher.logToConsole = true;
 
             var pusher = new Pusher('1ff1c6e776e069c53081', {
             cluster: 'mt1'
